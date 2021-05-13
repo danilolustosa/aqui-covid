@@ -1,0 +1,23 @@
+<h1>{{titulo}}</h1>
+
+<form>
+
+  <div class="field">
+    <label>Nome:</label>
+    <input type="text">
+  </div>
+
+  <div class="field">
+    <label>CPF:</label>
+    <input type="text">
+  </div>
+
+  <div class="toolbox">
+    <button>Salvar</button>
+
+    <a [routerLink]="['/pessoa']">
+      <button>Voltar</button>
+    </a>
+  </div>
+
+</form>
